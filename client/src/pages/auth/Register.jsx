@@ -22,7 +22,7 @@ const Register = () => {
   useEffect(() => {
     // Redirect if logged in
     if (isAuthenticated) {
-      navigate('/');
+      navigate('/dashboard');
     }
   }, [isAuthenticated, navigate]);
 
@@ -75,7 +75,7 @@ const Register = () => {
     });
     
     if (success) {
-      navigate('/');
+      navigate('/dashboard');
     }
   };
 
@@ -108,27 +108,7 @@ const Register = () => {
         </div>
         <form className="mt-8 space-y-6" onSubmit={onSubmit}>
           <div className="rounded-md shadow-sm -space-y-px">
-            <div>
-              <label htmlFor="name" className="sr-only">
-                Full Name
-              </label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                autoComplete="name"
-                required
-                className={`appearance-none rounded-none relative block w-full px-3 py-2 border ${
-                  errors.name ? 'border-red-300' : 'border-gray-300'
-                } placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm`}
-                placeholder="Full Name"
-                value={name}
-                onChange={onChange}
-              />
-              {errors.name && (
-                <p className="mt-1 text-sm text-red-600">{errors.name}</p>
-              )}
-            </div>
+           
             <div>
               <label htmlFor="email" className="sr-only">
                 Email address

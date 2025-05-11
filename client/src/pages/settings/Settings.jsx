@@ -66,7 +66,7 @@ const Settings = () => {
             <div>
               <h3 className="text-lg font-medium text-gray-900 mb-3">Profile Information</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
+                {/* <div>
                   <label htmlFor="name" className="form-label">
                     Full Name
                   </label>
@@ -78,7 +78,7 @@ const Settings = () => {
                     value={name}
                     onChange={onChange}
                   />
-                </div>
+                </div> */}
                 <div>
                   <label htmlFor="email" className="form-label">
                     Email Address
