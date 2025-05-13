@@ -1,5 +1,6 @@
 # ClientTracker
-https://freeclienttracker.com/
+https://clientracker-ae3da1320178.herokuapp.com/ check it out
+domain coming soon https://freeclienttracker.com/
 Mern stack and tailwind css for deployment i used heroku and hostinger
 <img width="871" alt="clienttrack1" src="https://github.com/user-attachments/assets/57019f96-6d0f-4030-ae3a-51debc27b82c" />
 <img width="950" alt="client track 2" src="https://github.com/user-attachments/assets/9168b789-b49d-44cd-a3bf-bac3ce566672" />
